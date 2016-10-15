@@ -7,12 +7,7 @@ class proposalController extends Controller{
    */
   function proposal(){
 
-
-
   }
-
-
-
 
   function proposal_detail(){
 
