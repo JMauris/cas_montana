@@ -4,8 +4,8 @@ class MySqlConn {
 	const HOST = "127.0.0.1";
 	const PORT = "3306";
 	const DATABASE = "casmontana";
-	const USER = "grp5";
-	const PWD = "Reunion2012";
+	const USER = "root";
+	const PWD = "";
 
 	private static $instance;
 	private $_conn;
