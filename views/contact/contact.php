@@ -5,13 +5,13 @@
 		<head>
 			<meta charset="UTF-8">
 			<title>Contact</title>
-			<link rel="stylesheet" type="text/css" href="http://localhost/cas_montana/public/css/main.css">
+			<link rel="stylesheet" type="text/css" href="/<?php echo SITE_NAME; ?>/public/css/main.css">
 		</head>
 		<body>
 			<div style="height: 500px;">
 				<h1>Contact information</h1>
 				<br>
-				<img style="width: 300px; height: 300px; float:right; " alt="contactinfo" src="http://localhost/cas_montana/contactinfo.png">
+				<img style="width: 300px; height: 300px; float:right; " alt="contactinfo" src="/<?php echo SITE_NAME; ?>/contactinfo.png ">
 				<p>		VALRANDO
 				<br>	Association Valaisanne de la Randonnée
 				<br>	Pré-Fleuri 6

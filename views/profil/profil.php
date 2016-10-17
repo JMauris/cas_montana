@@ -77,7 +77,7 @@ for ($cpt=0; $cpt<=3; $cpt++) {
        <th></th><th><input type="submit" name="action" value="Save"></th>
 		 </tr>
        <tr>
-		   <th></th><th>	<a href="">Change the password</a></th>
+		<!--   <th></th><th>	<a href="">Change the password</a></th> -->
 		</tr>
 	</table>
 </form>
@@ -87,5 +87,5 @@ for ($cpt=0; $cpt<=3; $cpt++) {
 </body>
 <?php
 unset($_SESSION['msg']);
-//include_once ROOT_DIR.'global/footer.php';
+include_once ROOT_DIR.'global/footer.php';
 ?>

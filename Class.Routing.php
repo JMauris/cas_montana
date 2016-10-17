@@ -1,9 +1,5 @@
 <?php
-/**
- * Class used to apply http request with the MVC structure
- * @author S. Martin
- * @link http://www.hevs.ch
- */
+
 
 class Routing{
 

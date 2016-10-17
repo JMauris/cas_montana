@@ -11,7 +11,7 @@
 
 		<title>Programm overview</title>
 
-		<link rel="stylesheet" type="text/css" href="http://localhost/cas_montana/public/css/main.css">
+		<link rel="stylesheet" type="text/css" href="/<?php echo SITE_NAME; ?>/public/css/main.css">
 
 		<script>
 		   $(function() {

@@ -1,9 +1,9 @@
 <?php
 //Global Constants
-define('SITE_NAME', 'cas_montana');
+define('SITE_NAME', 'grp5');
 define('ROOT_DIR', dirname(getcwd()) . '/' . SITE_NAME.'/');
 define('URL_DIR', $_SERVER['REQUEST_SCHEME'].'://'.$_SERVER['SERVER_NAME'].':'.$_SERVER['SERVER_PORT']
-		. '/' . SITE_NAME.'/');
+	. '/' . SITE_NAME.'/');
 
 //Load required classes automatically
 function __autoload($class)

@@ -6,6 +6,7 @@ $msg = $this->vars['msg'];
 $user = $_SESSION['personne'];
 ?>
 <br><br>
+<div>
 	<table align="center">
 		<tr>
 			<td>
@@ -15,6 +16,7 @@ $user = $_SESSION['personne'];
 			</td>
 		</tr>
 	</table>
+</div>
 </form>
 <br/><br/><br/><br/>
 <?php

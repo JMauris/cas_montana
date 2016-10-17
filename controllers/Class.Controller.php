@@ -1,9 +1,5 @@
 <?php
-/**
- * Parent class for every controllers classes
- * @author S. Martin
- * @link http://www.hevs.ch
- */
+
 class Controller {
     protected $vars = array();
     protected $controller;
@@ -29,7 +25,7 @@ class Controller {
 			include 'views/'.$view;
 
     }
-  
+
     }
 
     /**

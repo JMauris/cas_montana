@@ -24,6 +24,6 @@ div{
 
 body {
 	height: 700px;
-	background: url('http://localhost/cas_montana/background.jpg') no-repeat !important;
+	background: url("/grp5/background.jpg ") no-repeat !important;
 	background-position: center;
 }

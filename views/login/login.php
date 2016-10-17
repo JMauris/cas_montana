@@ -6,16 +6,17 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Login</title>
-		<link rel="stylesheet" type="text/css" href="http://localhost/cas_montana/public/css/main.css">
+		<link rel="stylesheet" type="text/css" href="/<?php echo SITE_NAME; ?>/public/css/main.css">
 		<style type="text/css">
 			form {
-				width:25%; 
+				width:25%;
     			margin:0 auto;
 			}
 		</style>
 	</head>
 	<body>
 		<div>
+			
 			<h1>Mon Cas</h1>
 			<form action="<?php echo URL_DIR.'login/connection';?>" method="post">
 				<?php echo $msg;?>
@@ -34,7 +35,7 @@
 					<tr>
 						<td>
 							<br/>
-							<a href="<?php echo URL_DIR.'login/newuser';?>">Register</a>
+						<!--	<a href="<?php echo URL_DIR.'login/newuser';?>">Register</a>-->
 							<br/><br/>
 						</td>
 					</tr>

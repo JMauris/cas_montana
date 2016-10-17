@@ -3,7 +3,7 @@
 <html>
 	<head>
 		<title>Proposal Detail</title>
-		<link rel="stylesheet" type="text/css" href="http://localhost/cas_montana/public/css/main.css">
+		<link rel="stylesheet" type="text/css" href="/<?php echo SITE_NAME; ?>/public/css/main.css">
 		<style type="text/css">
 			div {
 				text-align: center;
@@ -49,7 +49,9 @@
 					<td>*********</td>
 				</tr>
 			</table>
-			<input type="button" value="go back"></input>
+			<a href="<?php echo URL_DIR.'proposal/proposal'?>">
+			<input type="button" value="go back" ></input>
+		</a>
 		</div>
 	</body>
 </html>
